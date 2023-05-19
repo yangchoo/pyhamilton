@@ -8,7 +8,8 @@
  namespace _Method { #include "ASWStandard\\TraceLevel\\TraceLevel.hsl" } 
  namespace _Method { #include "HslHamHeaterShakerLib.hsl" } 
  namespace _Method { #include "HSLJson\\HSLJson.hsl" } 
- namespace _Method { #include "STAR_OEM_toolkit.hs_" } 
+ namespace _Method { #include "HSL_LiquidClassLib.hsl" }
+ namespace _Method { #include "STAR_OEM_toolkit.hs_" }
  namespace _Method { #include "STAR_OEM_toolkit.hs_" } 
  namespace _Method { #include "SchedulingDev\\HSLAppsLib.hsl" } 
  namespace _Method { #include "STAR_OEM_toolkit_pH.hs_" } 
@@ -19,7 +20,6 @@
 #include "STAR_OEM_Test.res"
  namespace _Method { #include "Hamilton MPE2\\HSLMPELib.hsl" } 
  namespace _Method { #include "Hamilton Centrifuge\\Hamilton Centrifuge.hsl" } 
- namespace _Method { #include "HSL_LiquidClassLib.hsl" } 
 /* {{ 2 "LibraryInsertLine" "" */ // }} ""
 variable loopCounterMain;
 variable msg;
@@ -361,7 +361,7 @@ return;
 }
 // }} ""
 // {{{ 6 1 0 "ee92e29b_e94c_46cf_a67851f3be61c805" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
-SendTextMessageToServer(Translate("Hi, I´m a VENUS method."));
+SendTextMessageToServer(Translate("Hi, Iï¿½m a VENUS method."));
 // }} ""
 // {{ 7 1 0 "b573bcbb_6bb4_4b28_b1ca14b0d3cad22e" "{B31F3532-5D80-11d4-A5EB-0050DA737D89}"
 {
